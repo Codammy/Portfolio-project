@@ -20,7 +20,14 @@ pip install -r requirements.txt
 **Available endpoints:**
 BASE_URL = "/api/v1"
 | endpoint | supported methods |
-| :-------- | -----------------: |
+| :-------- | ---------------: |
 | /token    | POST |
-| /token-refresh | POST |
+| /token-refresh  | POST |
+| /create-account | POST |
+| /profile  | GET,POST,PUT,PATCH |
+| /store  | GET,POST,PUT,PATCH |
+| /items  | GET,POST,PUT,PATCH |
+| /promotions  | GET,POST,PUT,PATCH |
 
+
+_postman collection might be added in later updates._
